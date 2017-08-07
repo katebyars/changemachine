@@ -1,3 +1,5 @@
+package models;
+
 public class ChangeMachine {
   private int mQuarters;
   private int mDimes;

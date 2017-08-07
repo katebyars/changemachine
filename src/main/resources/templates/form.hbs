@@ -1,0 +1,19 @@
+{{#partial "title" }}
+  Count Change With A Machine!
+{{/partial}}
+
+<!--form.hbs.-->
+{{#partial "content"}}
+
+<h1>Let's count your change!</h1>
+<form action='/changemachine'>
+ <div class="form-group">
+   <label for="dollarAmount">Your dollar amount</label>
+   <input id="dollarAmount" name="dollarAmount" class="form-control" type="number">
+ </div>
+ <button type="submit" class="btn">Gimme change!</button>
+</form>
+<!--form.hbs.-->
+{{/partial}}
+
+{{> layout.hbs}}
